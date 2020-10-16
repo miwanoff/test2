@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Piedra&display=swap");
+@font-face {
+  font-family: Piedra-Regular; /* Гарнитура шрифта */
+  src: url(fonts/Piedra-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background: url(images/js.png);
+  background-attachment: fixed;
+}
+h1 {
+  color: #f00; /* c */
+  text-align: center; /* tac */
+  background-color: gold; /* bgc */
+  height: 80px; /* h120 */
+  line-height: 80px;
+  font-size: 46px;
+  font-family: "Goudy Stout", "Verdana", "Arial", sans-serif;
+}
+
+h2 {
+  color: orange !important; /* c */
+  text-align: center; /* tac */
+  font-family: "Piedra-Regular", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+
+a {
+  color: orange;
+  text-decoration: none; /*tdn */
+}
+
+a:hover {
+  color: brown;
+}
+
+blockquote {
+  border-left: gold solid 3px;
+  padding: 10px;
+}
+
+.lang {
+  width: 120px;
+}
+
+.boderred {
+  border: solid red 2px;
+}
+
+.special {
+  color: magenta;
+}
+
+#mark1 {
+  color: red;
+}
+
+ul.menu {
+  list-style-type: none;
+  width: 850px;
+}
+
+ul.menu li {
+  width: 200px;
+  margin: 5px;
+  float: left;
+}
+
+ul.menu li a {
+  display: block;
+  background-color: brown;
+  padding: 10px;
+}
+ul.menu li a:hover {
+  background-color: orange;
+}
+
+.clear {
+  clear: both;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  border: solid #ff00eb;
+  display: inline-block;
+  vertical-align: top;
+}
+.wrap {
+  width: 420px;
+}
+.column {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.center {
+  margin: 0 auto;
+}
+#header {
+  background: url(images/wp.png);
+  background-size: cover;
+}
+
+#footer {
+  height: 100px;
+  background: url(images/web.png);
+  position: relative;
+}
+
+#footer p {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
